@@ -1,0 +1,73 @@
+/* Basic Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Homepage Styling */
+h1 {
+    color: #007bff;
+    animation: fadeIn 2s ease-in-out;
+}
+
+p.lead {
+    color: #20c997;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+/* Catalogue Table Styling */
+table {
+    margin-top: 20px;
+}
+
+table th, table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Button Hover Animation */
+.btn-primary:hover {
+    background-color: #20c997;
+    border-color: #20c997;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
